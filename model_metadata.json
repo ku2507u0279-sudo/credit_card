@@ -1,0 +1,27 @@
+{
+  "locations": [
+    "Chicago",
+    "Dallas",
+    "Houston",
+    "Los Angeles",
+    "New York",
+    "Philadelphia",
+    "Phoenix",
+    "San Antonio",
+    "San Diego",
+    "San Jose"
+  ],
+  "transaction_types": [
+    "purchase",
+    "refund"
+  ],
+  "target_column": "IsFraud",
+  "input_columns": [
+    "TransactionID",
+    "TransactionDate",
+    "Amount",
+    "MerchantID",
+    "TransactionType",
+    "Location"
+  ]
+}
